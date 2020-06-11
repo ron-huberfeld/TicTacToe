@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
 import MainSwitcher from "./MainSwitcher";
 
@@ -13,9 +11,8 @@ class App extends Component {
     return (
       <div>
         <header >
-          <div className="overlay">
+          <div >
             <h1>
-              {/* <img src={logo} className="App-logo" alt="logo" /> */}
               How About a Little Game of Tic Tac Toe?
             </h1>
           </div>

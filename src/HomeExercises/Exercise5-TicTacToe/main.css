@@ -1,12 +1,12 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  /* margin: 20px; */
   /* margin: 0; */
   /* background-color: #3d385a; */
 }
 
 .pic {
-  background-size: 30%;
+  /* background-size: 30%; */
   opacity: 0.8;
   background-image: url("pic_war.png");
   background-color: #cccccc;
@@ -167,7 +167,7 @@ body {
   transform: rotateX(55deg) rotateZ(-30deg) rotateY(5deg);
   transform-style: preserve-3d;
   position: absolute;
-  left: 40%;
+  left: 20%;
   top: 0;
 }
 /* 

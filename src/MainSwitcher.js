@@ -10,7 +10,7 @@ class MainSwitcher extends Component {
 
   render() {
     return (
-      <div className="pic">
+      <div >
         <GameMainComp />
       </div>
     );
