@@ -105,7 +105,7 @@ class BoardComp extends Component {
     if (winner != null) {
       status = "Winner: " + winner.player;
       winningSquares = winner.line;
-    } else if (winner != null && this.isGameOver()) {
+    } else if (this.isGameOver()) {
       status = "Outcome is tie!";
     } else {
       status = "Next player: " + (this.state.xIsNext ? "X" : "O");
