@@ -1,0 +1,65 @@
+.app {
+  text-align: center;
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+.app2 {
+  text-align: center;
+  border: 2px solid red;
+  padding: 5px;
+}
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(135deg, #05b0ff69 10%, blue 100%);
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background: #1abc9c;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
