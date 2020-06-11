@@ -12,9 +12,9 @@ class App extends Component {
       <div>
         <header >
           <div >
-            <h1>
+            <h3>
               How About a Little Game of Tic Tac Toe?
-            </h1>
+            </h3>
           </div>
         </header>
         <MainSwitcher />
