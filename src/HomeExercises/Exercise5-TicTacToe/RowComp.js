@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import SquareComp from "./SquareComp";
 
 class RowComp extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   renderSquare = (i) => {
     let winArr = this.props.winningSquares;
     let isWinningSquare = winArr.winningSquares.includes(i);

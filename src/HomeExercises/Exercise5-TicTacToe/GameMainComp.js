@@ -5,10 +5,6 @@ import "./main.css";
 import BoardComp from "./BoardComp";
 
 class GameMainComp extends Component {
-  constructor() {
-    super();
-  }
-
   handleRestart = () => {
     window.location.reload(false);
   };
