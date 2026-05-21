@@ -8,6 +8,7 @@ const App = () => {
       <header>
         <div>
           <h3>How About a Little Game of Tic Tac Toe?</h3>
+          <p>This is a Tic Tac Toe game built with React.</p>
         </div>
       </header>
       <MainSwitcher />
